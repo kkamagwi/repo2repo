@@ -56,7 +56,7 @@ ROOT_URLCONF = 'repo2repo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['templates', 'kkamagwi.pythonanywhere.com/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
